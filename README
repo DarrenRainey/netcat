@@ -1,11 +1,4 @@
-
- )\  )\   )\.---.  .-,.-.,-.    )\.-.     /`-.   .-,.-.,-. 
-(  \, /  (   ,-._( ) ,, ,. (  ,' ,-,_)  ,' _  \  ) ,, ,. ( 
- ) \ (    \  '-,   \( |(  )/ (  .   _  (  '-' (  \( |(  )/ 
-( ( \ \    ) ,-`      ) \     ) '..' )  )   _  )    ) \    
- `.)/  )  (  ``-.     \ (    (  ,   (  (  ,' ) \    \ (    
-    '.(    )..-.(      )/     )/'._.'   )/    )/     )/    for Windows
------------------------------------------------------------------------
+# Netcat For Windows
 
 This NetCat for Windows was originally created by Rodney Beede, it's
 a version compiled without the GAPING_SECURITY_HOLE option (-e switch)
