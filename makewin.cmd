@@ -1,14 +1,6 @@
 @REM	Build script to compile Netcat on WIN32 using MinGW
 @REM
-@REM	Rodney Beede	(http://www.rodneybeede.com)
 @REM
-@REM	2009-09-02
-@REM
-@REM	Tested with gcc 3.4.5 and MinGW version 5.1.4
-@REM
-@REM	[[ diegocr ]]
-@REM
-@REM	2010-12-14
 @REM
 @REM	Tested with gcc 4.5.0 and MinGW version 3.1.8(?)
 @REM	Added more compiler options and strip usage
@@ -26,6 +18,7 @@ SET XFLAGS=-O3 -march=i686
 SET CFLAGS=-c %XFLAGS% -DTELNET
 SET LFLAGS=%XFLAGS%
 
+@REM Delete Old Versions
 del *.o
 del nc.exe
 
